@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="home">
+        <div class="sky">
+            <button class="btn btn-green" onclick="document.getElementById('sunImage').src='./img/sun png 2.png'">Turn
+                on the
+                sun</button>
+            <img id="sunImage" src="./img/sun png 2.png" alt="" style="width: 220px;">
+            <button class="btn btn-red" onclick="document.getElementById('sunImage').src='./img/moon png.png'">Turn off
+                the sun</button>
+        </div>
+        <div class="tree-container">
+            <button class="btn btn-green" onclick="document.getElementById('treeImg').src='./img/Yg6D.gif'">Move the
+                tree</button>
+            <img id="treeImg" src="./img/Yg6D.gif" alt="" style="width: 300px;">
+            <button class="btn btn-red" onclick="document.getElementById('treeImg').src='./img/tree still.png'">Stop
+                moving the
+                tree</button>
+        </div>
+        <div class="house-container"><img src="./img/house-village-city-atl-png.png" alt="" style="width: 600px;"></div>
+    </div>
+
+
+    <div class="road">
+        <div class="river">
+            <img id="riverImg" src="./img/river gif.gif" alt="">
+            <button class="btn btn-green" onclick="document.getElementById('riverImg').src='./img/river gif.gif'">River
+                flow
+                on</button>
+            <button class="btn btn-red"
+                onclick="document.getElementById('riverImg').src='./img/river still png.png'">River flow
+                off</button>
+        </div>
+        <div class="cycle">
+            <button class="btn btn-green" onclick="document.getElementById('cycleImg').src='./img/cycle gif.gif'">Cycle
+                On</button>
+            <button class="btn btn-red" onclick="document.getElementById('cycleImg').src='./img/cycle still.png'">Cycle
+                off</button>
+            <img id="cycleImg" src="./img/cycle gif.gif" alt="">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
